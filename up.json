@@ -1,0 +1,19 @@
+{
+  "name": "devc-landing-page",
+  "profile": "default",
+  "type": "static",
+  "static": {
+    "dir": "dist"
+  },
+  "regions": ["ap-southeast-1"],
+  "stages": {
+    "production": {
+      "domain": "devc-challenge.coderschool.vn",
+      "zone": false
+    },
+    "staging": {
+      "domain": "challenge-staging.coderschool.vn",
+      "zone": false
+    }
+  }
+}
