@@ -4,14 +4,20 @@
       <Navigation/>
     </header>
     <slot/>
-    <Footer />
   </div>
 </template>
 <style lang="scss">
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,600,600i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,500,700');
 
 html, body {
-  font-family: 'Montserrat', sans-serif !important;
+  font-family: 'Roboto', sans-serif !important;
+}
+body { 
+  background: url('../assets/images/bg.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 </style>
 <script>
